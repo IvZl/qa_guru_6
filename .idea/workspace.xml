@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14b9f41f-a997-47a6-b2ef-ae2ac05efae8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/GithubSearchTestWithListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="14b9f41f-a997-47a6-b2ef-ae2ac05efae8" name="Changes" comment="End writing GitHub Search Test With Listener">
+      <change afterPath="$PROJECT_DIR$/src/test/java/SearchWIthLambdaStepsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SearchWithAnnotationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GithubSearchTestWithListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SearchWithListenerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +39,12 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="qa_guru_6" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="qa_guru_6" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
@@ -83,28 +92,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Gradle.qa_guru_6 [clean]">
-    <configuration name="GithubSearchTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;GithubSearchTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.qa_guru_6 [allureServe]">
     <configuration name="GithubSearchTestWithListener" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -126,12 +114,33 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="GithubSearchTest.searchIssueTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SearchWIthLambdaStepsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;GithubSearchTest.searchIssueTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;SearchWIthLambdaStepsTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SearchWIthLambdaStepsTest.searchIssueTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;SearchWIthLambdaStepsTest.searchIssueTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -191,11 +200,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.qa_guru_6 [clean]" />
         <item itemvalue="Gradle.qa_guru_6 [allureServe]" />
+        <item itemvalue="Gradle.SearchWIthLambdaStepsTest.searchIssueTest" />
+        <item itemvalue="Gradle.qa_guru_6 [clean]" />
+        <item itemvalue="Gradle.SearchWIthLambdaStepsTest" />
         <item itemvalue="Gradle.GithubSearchTestWithListener" />
-        <item itemvalue="Gradle.GithubSearchTest.searchIssueTest" />
-        <item itemvalue="Gradle.GithubSearchTest" />
       </list>
     </recent_temporary>
   </component>
@@ -208,6 +217,14 @@
       <option name="presentableId" value="Default" />
       <updated>1642098028114</updated>
     </task>
+    <task id="LOCAL-00001" summary="End writing GitHub Search Test With Listener">
+      <created>1642102820216</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1642102820216</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -220,5 +237,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="End writing GitHub Search Test With Listener" />
+    <option name="LAST_COMMIT_MESSAGE" value="End writing GitHub Search Test With Listener" />
   </component>
 </project>

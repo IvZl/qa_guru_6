@@ -9,7 +9,7 @@ import org.openqa.selenium.By;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
-public class GithubSearchTestWithListener {
+public class SearchWithListenerTest {
     @BeforeAll
     static void beforeAll () {
         Configuration.browserSize = "1920x1080";
