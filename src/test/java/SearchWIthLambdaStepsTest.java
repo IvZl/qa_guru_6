@@ -10,12 +10,12 @@ import static io.qameta.allure.Allure.step;
 
 public class SearchWIthLambdaStepsTest {
     @BeforeAll
-    static void beforeAll () {
+    static void beforeAll() {
         Configuration.browserSize = "1920x1080";
     }
 
     @Test
-    public void searchIssueTest () {
+    public void searchIssueTest() {
         step("Открыть главную страницу", () -> open("https://github.com/"));
         step("Ввести в поле поиска название репозитория и нажать Enter", () -> {
             $(".header-search-input").setValue("IvZl/qa_guru_6").pressEnter();

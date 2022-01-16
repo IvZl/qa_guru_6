@@ -28,6 +28,7 @@ public class SearchWithAnnotationTest {
         $(".js-sidenav-container-pjax").shouldHave(Condition.text("Issues"));
     }
 
+
     @Test
     public void annotatedStepsTest() {
         SearchWithAnnotationTest annotatedStepsTest = new SearchWithAnnotationTest();

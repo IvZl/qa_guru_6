@@ -11,12 +11,12 @@ import static com.codeborne.selenide.Selenide.open;
 
 public class SearchWithListenerTest {
     @BeforeAll
-    static void beforeAll () {
+    static void beforeAll() {
         Configuration.browserSize = "1920x1080";
     }
 
     @Test
-    public void searchIssueTest () {
+    public void searchIssueTest() {
         SelenideLogger.addListener("allure", new AllureSelenide());
 
         open("https://github.com/");
